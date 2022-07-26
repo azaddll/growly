@@ -1,0 +1,346 @@
+:root {
+  --text-color: #25396f;
+  --bottom-color: #89d2c4;
+  --bottom-text-color: #f2f6fc;
+  --welcome-text-color: #3eb09b;
+  --input-border-bottom-color: #9a9a9a;
+  --login-button-background-color: #00866a;
+  --sign-in-with-text: #7c7c7c;
+  --container-color: #f2f6fc;
+  --dark-color: #282828;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  min-width: 37.5rem;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+  background-color: #f2f6fc;
+}
+
+/* .container{
+  background-color: var(--container-color);
+} */
+
+.circle-image-div {
+  margin-top: 7.2rem;
+  position: relative;
+}
+
+.kid-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.growly-div {
+  margin-top: 1.6rem;
+}
+
+.welcome-text {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--text-color);
+}
+
+.watch-baby-text {
+  width: 26rem;
+  height: 5.4rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: var(--text-color);
+}
+
+.btn-get-started {
+  background-color: var(--bottom-color);
+  width: 32.8rem;
+  height: 4.8rem;
+  border-radius: 3rem;
+  margin-bottom: 4.95rem;
+}
+
+.get-started-button-text {
+  color: var(--bottom-text-color);
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.main-screen-bottom {
+  width: 100%;
+}
+
+.sign-in-welcome-text {
+  width: 14.3rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 45px;
+  margin-left: 1.6rem;
+  margin-top: 10.4rem;
+  color: var(--welcome-text-color);
+}
+
+.sign-in-kid-image {
+  left: 43.06%;
+}
+
+.email-phone-input,
+.password-input {
+  border: none;
+}
+
+.email-phone-div,
+.password-div {
+  border-bottom: 1px solid var(--welcome-text-color);
+  margin-right: 4rem;
+}
+
+.email-phone-input {
+  opacity: 50%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--welcome-text-color);
+}
+
+.password-input {
+  opacity: 50%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--welcome-text-color);
+  margin-top: 2.4rem;
+}
+
+.login-section {
+  margin-top: 3.2rem;
+}
+
+.login-button {
+  width: 18.4rem;
+  background-color: var(--login-button-background-color);
+  height: 4.8rem;
+  border-radius: 3rem;
+}
+
+.login-button-text {
+  color: var(--bottom-text-color);
+  margin: auto;
+}
+
+.custome-margin-left {
+  margin-left: 1.6rem;
+}
+
+.custome-margin-right {
+  margin-right: 1.6rem;
+}
+
+.or-sign-in-text {
+  color: var(--sign-in-with-text);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  margin-top: 1.6rem;
+  width: 9.6rem;
+  height: 2.2rem;
+}
+
+.user-name-div {
+  width: 50%;
+}
+
+.user-image-div {
+  width: 50%;
+}
+
+.good-morning-text {
+  margin-top: 2.7rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: var(--text-color);
+}
+
+.user-name-text {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 150%;
+  color: var(--text-color);
+}
+
+.user-image-item {
+  margin-top: 2.4rem;
+  margin-right: 1.6rem;
+}
+
+.child-data-section {
+  margin-top: 2.4rem;
+}
+
+.user-child-image {
+  border-radius: 0.4rem;
+}
+
+.daytogo-data {
+  width: 16rem;
+  /* height: 10rem; */
+  background-color: white;
+}
+
+.kumsize-data {
+  width: 16rem;
+  /* height: 10rem; */
+  background-color: white;
+}
+
+.duedate-text {
+  font-size: 1.2;
+  line-height: 1.8rem;
+  /* font-weight: 600; */
+}
+
+.baby-at-week {
+  margin-top: 2.4rem;
+}
+
+.baby-at-week-header {
+  background-image: url("./../images/babyatweekheaderimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 1.6rem;
+  color: white;
+}
+
+.week-text-icon {
+  border: 0.4rem solid #4dd490;
+  border-radius: 5rem;
+  padding: 0.2rem 0.4rem 0.4rem 0.1rem;
+}
+
+.baby-at-week-text {
+  width: 29.6rem;
+  height: 6.3rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #464646;
+}
+
+.week-data {
+  margin-top: 0.8rem;
+}
+
+.baby-at-week-content {
+  margin-top: 2rem;
+}
+
+.how-are-you-card {
+  margin-top: 2.4rem;
+}
+
+.how-are-you-text {
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 1.8rem;
+  color: var(--text-color);
+}
+
+.pencil-icon {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.morning-sick-div,
+.diziness-div {
+  background-color: var(--bottom-color);
+  border-radius: 3rem;
+  padding: 0.4rem 1.6rem;
+}
+
+.morning-sickness-text,
+.dizziness-text {
+  color: white;
+}
+
+.medication-div,
+.mood-div,
+.cycle-sleep-div {
+  margin-top: 1.6rem;
+}
+
+.cycle-len-data {
+  margin-right: 9.6rem;
+}
+
+.cycle-len-text,
+.sleep-text {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--login-button-background-color);
+}
+
+.cycle-day-text,
+.cycle-sleep-text {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: var(--dark-color);
+}
+
+.tool-section {
+  margin-top: 3.2rem;
+}
+
+.pink-rectangle {
+  box-sizing: border-box;
+  width: 32.8rem;
+  height: 8.8rem;
+  background-image: url("./../images/pinkrectangle.png");
+}
+
+.blue-rectangle {
+  box-sizing: border-box;
+  width: 32.8rem;
+  height: 8.8rem;
+  margin-top: 0.8rem;
+  background-image: url("./../images/bluerectangle.png");
+}
+
+.kick-icon {
+  margin-left: 2.7rem;
+}
+
+
+
+.kick-counter-header {
+  margin-top: 1.6rem;
+  margin-left: 2.7rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+
+.kick-counter-text {
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  width: 19.1rem;
+  margin-left: 2.7rem;
+}
